@@ -37,9 +37,10 @@ function Login() {
 							placeholder="password"
 						/>
 					</div>
+					<p className="text-red-500">This is an error!</p>
 					<div class="flex items-center justify-between">
 						<button
-							class="bg-slate-500 text-black font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+							class="bg-slate-500 text-black font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline m-4"
 							type="button"
 						>
 							Sign In
