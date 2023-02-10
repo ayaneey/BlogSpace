@@ -9,6 +9,8 @@ import Register from "./pages/Register";
 import Login from "./pages/Login";
 import Write from "./pages/Write";
 import Home from "./pages/Home";
+import Testimonials from "./pages/Testimonials";
+import About from "./pages/About";
 import Single from "./pages/Single";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -51,6 +53,14 @@ const router = createBrowserRouter([
 	{
 		path: "/login",
 		element: <Login />,
+	},
+	{
+		path: "/about",
+		element: <About />,
+	},
+	{
+		path: "/testimonials",
+		element: <Testimonials />,
 	},
 ]);
 
