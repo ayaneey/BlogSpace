@@ -23,6 +23,21 @@ function Login() {
 							placeholder="username"
 						/>
 					</div>
+					<div class="mb-4">
+						<label
+							class="block text-gray-700 text-sm font-bold mb-2"
+							for="email"
+						>
+							Email
+						</label>
+						<input
+							class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+							id="email"
+							type="text"
+							placeholder="email"
+						/>
+					</div>
+
 					<div class="mb-6">
 						<label
 							class="block text-gray-700 text-sm font-bold mb-2"
@@ -45,10 +60,10 @@ function Login() {
 						>
 							Sign In
 						</button>
-						<span className="text-md ml-6">
+						<span className="text-md ml-6 spacing">
 							Don't have an account?{" "}
 							<Link className="text-blue-400" to="/register">
-								Register
+								Sign Up
 							</Link>
 						</span>
 					</div>

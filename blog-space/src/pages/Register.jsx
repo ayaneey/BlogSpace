@@ -60,7 +60,7 @@ function Register() {
 						>
 							Sign In
 						</button>
-						<span className="text-md ml-6">
+						<span className="text-md ml-6 spacing">
 							Already have an account?{" "}
 							<Link className="text-blue-400" to="/login">
 								Login
